@@ -216,7 +216,7 @@ open class MTCircularSlider: UIControl {
 		didSet { setNeedsDisplay() }
 	}
 
-	override init(frame: CGRect) {
+	override public init(frame: CGRect) {
 		super.init(frame: frame)
 
 		prepare()
